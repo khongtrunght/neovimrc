@@ -1,8 +1,7 @@
 return {
   "tpope/vim-fugitive",
   config = function()
-    vim.keymap.set("n", "<leader>vg", vim.cmd.Git, { desc = "Fugitive " })
-
+    vim.keymap.set("n", "<leader>vg", vim.cmd.Git, { desc = "fugitive " })
     local ThePrimeagen_Fugitive = vim.api.nvim_create_augroup("ThePrimeagen_Fugitive", {})
 
     local autocmd = vim.api.nvim_create_autocmd
@@ -22,7 +21,8 @@ return {
 
         -- rebase always
         vim.keymap.set("n", "<leader>P", function()
-          vim.cmd.Git({ "pull", "--rebase" })
+          -- vim.cmd.Git({ "pull", "--rebase" })
+          vim.cmd.Git({ "pull" })
         end, opts)
 
         -- NOTE: It allows me to easily set the branch i am pushing and any tracking
