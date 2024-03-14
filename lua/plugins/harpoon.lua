@@ -60,28 +60,28 @@ return {
       desc = "Next file",
     },
     {
-      "<C-h>",
+      "<C-j>",
       function()
         require("harpoon"):list():select(1)
       end,
       desc = "Harpoon to file 1",
     },
     {
-      "<C-h>",
+      "<C-k>",
       function()
         require("harpoon"):list():select(2)
       end,
       desc = "Harpoon to file 1",
     },
     {
-      "<C-h>",
+      "<C-l>",
       function()
         require("harpoon"):list():select(3)
       end,
       desc = "Harpoon to file 1",
     },
     {
-      "<C-h>",
+      "<C-;>",
       function()
         require("harpoon"):list():select(4)
       end,
