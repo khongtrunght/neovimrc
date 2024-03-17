@@ -12,7 +12,7 @@ return {
   cmd = "Grapple",
   keys = {
     { "<leader>a", "<cmd>Grapple toggle<cr>", desc = "Tag a file" },
-    { "<leader>ts", "<cmd>Grapple toggle_scopes<cr>", desc = "Grapple toggle scopes" },
+    { "<leader>tgs", "<cmd>Grapple toggle_scopes<cr>", desc = "Grapple toggle scopes" },
     { "<leader>h", "<cmd>Telescope grapple tags<cr>", desc = "Open grapple windows with telescope" },
     { "<c-e>", "<cmd>Grapple toggle_tags<cr>", desc = "Toggle tags menu" },
     { "<c-k>", "<cmd>Grapple cycle forward<cr>", desc = "Grapple cycle forward" },
