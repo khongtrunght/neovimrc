@@ -18,7 +18,7 @@ mv ~/.cache/nvim{,.bak}
 
 * Clone this repository:
 ```sh
-git clone git@github.com:khongtrunght/neovimrc.git ~/.config/nvim
+git clone https://github.com/khongtrunght/neovimrc.git ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 ```
 
