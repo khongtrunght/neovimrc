@@ -19,6 +19,7 @@ return {
         { noremap = true, silent = true },
       },
     },
+    config = function() end,
   },
   {
     "leoluz/nvim-dap-go",
