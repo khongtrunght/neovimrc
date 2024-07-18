@@ -68,16 +68,16 @@ return {
   },
 
   opts = {
-    -- setup = {
-    --   rust_analyzer = function()
-    --     return true
-    --   end,
-    -- },
     setup = {
       rust_analyzer = function()
         return true
       end,
     },
+    -- setup = {
+    --   rust_analyzer = function()
+    --     return true
+    --   end,
+    -- },
     inlay_hints = {
       enabled = true,
       exclude = { "vue" }, -- filetypes for which you don't want to enable inlay hints
