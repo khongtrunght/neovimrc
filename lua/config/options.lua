@@ -34,4 +34,6 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.lsp.inlay_hint.enable(true)
+vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.lazyvim_python_ruff = "ruff"
 -- vim.g.python3_host_prog = "/Users/phanmanhtuan/.pyenv/versions/3.12.0/bin/python"

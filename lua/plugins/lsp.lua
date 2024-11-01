@@ -89,6 +89,12 @@ return {
   },
 
   opts = {
+    servers = {
+      pyright = {
+        mason = false,
+        autostart = false,
+      },
+    },
     setup = {
       rust_analyzer = function()
         return true
