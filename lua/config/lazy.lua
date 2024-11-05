@@ -29,6 +29,7 @@ require("lazy").setup({
       "nvim-treesitter/nvim-treesitter",
       dependencies = {
         "vrischmann/tree-sitter-templ",
+        { "nushell/tree-sitter-nu", build = ":TSUpdate nu" },
       },
       build = ":TSUpdate",
     },
