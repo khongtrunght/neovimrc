@@ -94,20 +94,20 @@ lspconfig.templ.setup({
 lspconfig.tailwindcss.setup({
   on_attach = on_attach,
   capabilities = capabilities,
-  filetypes = { "templ", "astro", "javascript", "typescript", "react" },
+  filetypes = { "templ", "astro", "javascript", "typescript", "react", "gohtml" },
   init_options = { userLanguages = { templ = "html" } },
 })
 
 lspconfig.html.setup({
   on_attach = on_attach,
   capabilities = capabilities,
-  filetypes = { "html", "templ" },
+  filetypes = { "html", "templ", "gohtml" },
 })
 
 lspconfig.htmx.setup({
   on_attach = on_attach,
   capabilities = capabilities,
-  filetypes = { "html", "templ" },
+  filetypes = { "html", "templ", "gohtml" },
 })
 
 local cmp = require("cmp")
