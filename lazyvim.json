@@ -2,6 +2,8 @@
   "extras": [
     "lazyvim.plugins.extras.coding.mini-surround",
     "lazyvim.plugins.extras.coding.yanky",
+    "lazyvim.plugins.extras.editor.dial",
+    "lazyvim.plugins.extras.editor.fzf",
     "lazyvim.plugins.extras.editor.inc-rename",
     "lazyvim.plugins.extras.formatting.black",
     "lazyvim.plugins.extras.lang.docker",
@@ -17,11 +19,12 @@
     "lazyvim.plugins.extras.lsp.none-ls",
     "lazyvim.plugins.extras.test.core",
     "lazyvim.plugins.extras.ui.mini-animate",
+    "lazyvim.plugins.extras.util.dot",
     "lazyvim.plugins.extras.util.mini-hipatterns",
     "lazyvim.plugins.extras.vscode"
   ],
   "news": {
-    "NEWS.md": "6520"
+    "NEWS.md": "7107"
   },
-  "version": 6
+  "version": 7
 }
