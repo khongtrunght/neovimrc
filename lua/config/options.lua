@@ -42,4 +42,5 @@ vim.filetype.add({
     gohtml = "html", -- Use "html" syntax and settings for `.gohtml` files
   },
 })
+
 -- vim.g.python3_host_prog = "/Users/phanmanhtuan/.pyenv/versions/3.12.0/bin/python"

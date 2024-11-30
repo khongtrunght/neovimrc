@@ -95,7 +95,15 @@ lspconfig.tailwindcss.setup({
   on_attach = on_attach,
   capabilities = capabilities,
   filetypes = { "templ", "astro", "javascript", "typescript", "react", "gohtml" },
-  init_options = { userLanguages = { templ = "html" } },
+  init_options = { userLanguages = { templ = "html", gohtml = "html" } },
+  settings = {
+    tailwindCSS = {
+      includeLanguages = {
+        templ = "html",
+        gohtml = "html",
+      },
+    },
+  },
 })
 
 lspconfig.html.setup({
