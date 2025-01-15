@@ -90,6 +90,15 @@ return {
 
   opts = {
     servers = {
+      basedpyright = {
+        settings = {
+          basedpyright = {
+            analysis = {
+              typeCheckingMode = "standard",
+            },
+          },
+        },
+      },
       pyright = {
         mason = false,
         autostart = false,
